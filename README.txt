@@ -8,3 +8,10 @@ https://public.tableau.com/vizql/v_202332401191724/javascripts/hybrid-window/min
 ch_wind_capacity.csv
 Pulled from https://chinadialogue.net/en/energy/china-offshore-wind-power-growth on 2023-12-07 by D Secor.
 "Offshore wind takes off in China", Gao Baiyu, October 9, 2020
+
+WhaleNorthAtlanticRight_20160127
+https://noaa.maps.arcgis.com/home/item.html?id=3115892b737a447abe2affa7e773701c
+https://www.fisheries.noaa.gov/resource/map/north-atlantic-right-whale-critical-habitat-map-and-gis-data
+
+NARW Canada
+https://open.canada.ca/data/en/dataset/db177a8c-5d7d-49eb-8290-31e6a45d786c
