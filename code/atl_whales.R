@@ -1,7 +1,7 @@
 library(sf)
 library(ggplot2)
 
-land <- '/vsizip/vsicurl/https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/physical/ne_10m_land.zip' |> 
+land <- 'c:/users/darpa2/analysis/rtwb-flyway/data/spatial/coastline.gpkg' |> 
   read_sf()
 
 narw_usa <- st_read(
@@ -16,7 +16,7 @@ narw_can <- st_read('narw_can_crithab.gpkg')
 ggplot() +
   geom_sf(data = land) +
   geom_sf(data = narw_usa, fill = 'pink') +
-  geom_sf(data = narw_can, fill = 'green') +
+  geom_sf(data = narw_can, fill = 'pink') +
   coord_sf(xlim = c(-85, -60),
            ylim = c(23, 53))
 
@@ -44,7 +44,7 @@ ggplot() +
 
   geom_sf(data = boem, fill ='red', color = 'red') +
   geom_sf(data = narw_usa_omerc, fill = 'pink') +
-  geom_sf(data = narw_can_omerc, fill = 'green') +
+  geom_sf(data = narw_can_omerc, fill = 'pink') +
   geom_sf(data = whales, aes(color = species),
           linewidth = 1, arrow = arrow(ends = 'both', length = unit(0.2, 'inches')),
           show.legend = F) +
