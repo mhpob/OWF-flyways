@@ -33,8 +33,22 @@ gannet_agg <- gannet[, week := format(date, "%V")] |>
   _[, species := 'gannet']
 
 
+## NARW
+narw <- fread('data/davis-et-al-2017_narw-daily-detection-data.csv')
+narw <- narw[NARW_PRESENCE == 1]
+narw[, week := format(ANALYSIS_END_ISO, '%V')]
+
+narw_agg <- narw[, .(mean = mean(RECORDER_LATITUDE, na.rm = T),
+                     lsd = mean(RECORDER_LATITUDE, na.rm = T) -
+                       sd(RECORDER_LATITUDE, na.rm = T),
+                     usd = mean(RECORDER_LATITUDE, na.rm = T) +
+                       sd(RECORDER_LATITUDE, na.rm = T),
+                     species = 'NARW'),
+                 by = week] 
+
+
 # Merge
-agg <- rbind(sb_agg, gannet_agg)
+agg <- rbind(sb_agg, gannet_agg, narw_agg)
 agg[, week := as.Date('2024-01-01') + as.numeric(week) * 7]
 
 # Same plot, different colors
@@ -61,7 +75,9 @@ setorder(agg, species, week)
 # Pointwise lat/week
 agg[, spd := (mean - shift(mean, 1)) / 7, by = species]
 ggplot(agg) +
-  geom_line(aes(x = week, y = spd, color = species))
+  geom_line(aes(x = week, y = spd, color = species)) +
+  scale_x_date(date_labels = '%b') +
+  theme_minimal()
 
 library(sf)
 agg[, lon := -68]
