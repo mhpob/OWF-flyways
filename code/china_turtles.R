@@ -2,7 +2,7 @@ library(sf)
 library(ggplot2)
 library(dplyr)
 
-land <- '/vsizip/c:/users/darpa2/downloads/ne_10m_land.zip/ne_10m_land.shp' |> 
+land <- '/vsizip/data/spatial/ne_10m_land.zip/ne_10m_land.shp' |> 
   read_sf()
 
 ch_wind_capacity <- read.csv('data/ch_wind_capacity.csv')
