@@ -16,7 +16,7 @@ ggplot() +
 
 library(OpenStreetMap)
 
-esri <- openmap(c(43, -77), c(35, -68), type = 'bing') |> 
+esri <- openmap(c(43, -77), c(35, -68), type = 'esri-terrain') |> 
   openproj()
 
 
