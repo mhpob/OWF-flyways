@@ -212,11 +212,52 @@ ggplot(crd) +
 
 library(mgcv)
 agg[, species := as.factor(species)]
-agg[, wk := as.numeric(week)]
-m1 <- gam(mean ~ species + s(wk, by = species, k = 15), data = agg, method = 'REML')
+agg[, wk := week(week)]
+m1 <- gam(mean ~  
+            0 + species +
+            s(wk, by = species, k = 13, bs = 'cc'),
+          knots = list(wk = c(1,53)),
+          data = agg, method = 'REML')
+
+pred_dat <- data.table(
+  wk = rep(1:53, times = 3),
+  species = rep(c('gannet', 'striped bass', 'NARW'),
+                each = 53)
+)
+pd <- predict(m1, newdata = pred_dat, se.fit = TRUE)
+
+pred_dat[, ':='(pred = pd$fit,
+         lci = pd$fit - 2*pd$se.fit,
+         uci = pd$fit + 2*pd$se.fit)]
+
+
+
+smooth_plot <- ggplot(data = pred_dat) +
+  geom_ribbon(aes(x = wk, ymin = lci, ymax = uci),
+              fill = 'lightgray') +
+  geom_line(aes(x = wk, y = pred)) +
+  geom_errorbar(data = agg, aes(x = wk, ymin = lsd, ymax = usd),
+                color = 'orange') +
+  geom_point(data = agg, aes(x = wk, y = mean),
+             color = 'orange') +
+  facet_wrap(~species, ncol = 1, scales = 'free_y')+
+  labs(x = 'Week of year', y = 'Latitude') +
+  theme_minimal()
+
+
+
 
 library(gratia)
 
-derivatives(m1) |> 
-  dplyr::mutate(wk = as.Date(wk)) |> 
-  draw(ncol=1) + scale_x_date(date_labels = '%b')
+deriv_plot <- derivatives(m1, data = pred_dat, unconditional = T) |> 
+  ggplot() +
+  geom_ribbon(aes(x = wk, ymin = .lower_ci, ymax = .upper_ci),
+              fill = 'lightgray') +
+  geom_line(aes(x = wk, y = .derivative)) +
+  facet_wrap(~species, ncol = 1, scales = 'free_y')+
+  labs(x = 'Week of year', y = 'Latitudinal velocity (degrees/week)') +
+  theme_minimal()
+  
+  
+library(patchwork)
+smooth_plot + deriv_plot
