@@ -1,150 +1,138 @@
-﻿Foundation type (group),Project Name,Status,Total Project Capacity,Year awarded (group),Commissioning date,Distance To Shore Average,Number Of Turbines,Owner,Status,To_Show_Turbine_Manufacturer,Total Project Capacity,Water Depth Average,GIS Latitude,GIS Longitude
-Monopile,Sofia,Under construction,1400,2019,2026,195,100,RWE,Under construction,Siemens Gamesa,1400,34,54.989,2.228
-Monopile,East Anglia Hub (Three),Under construction,1400,2022,2026,74.6,100,Iberdrola Renovables,Under construction,Siemens Gamesa,1400,40,52.669,2.855
-Monopile,Dogger Bank (phase B),Under construction,1200,2019,2025,131,95,Vårgrønn & Equinor & SSE Renewables,Under construction,GE Renewable Energy,1200,32.5,54.977,1.679
-Monopile,Dogger Bank (phase A),Under construction,1200,2019,2024,131,95,Vårgrønn & Equinor & SSE Renewables,Under construction,GE Renewable Energy,1200,27.5,54.769,1.908
-Monopile,Thor,Under construction,1000,2021,2027,50,72,RWE,Under construction,Siemens Gamesa,1000,,56.325,7.8354
+﻿Foundation type (group),Project Name,Status,Total Project Capacity,Year awarded (group),CommissioningDateFinal,Distance To Shore Average,Number Of Turbines,Owner Operator Developer,Status,To_Show_Turbine_Manufacturer,Total Project Capacity,Water Depth Average,Gis Latitude,Avg. Gis Longitude
+Monopile,Dogger Bank (phase B),Under construction,1200,2019,2025,131,95,"Dogger Bank JV (SSE ,  Equinor )",Under construction,GE Renewable Energy,1200,32.5,54.977,1.679
 Monopile,EnBW He Dreiht,Under construction,960,2017,2025,85,70,EnBW,Under construction,MHI Vestas Offshore Wind,960,39,54.365,6.186
-Monopile,Borkum Riffgrund 3,Under construction,913,2017,2025,52.5,83,Glennmont Partners & Ørsted,Under construction,Siemens Gamesa (2022),913,31.5,54.04,6.18
-Monopile,Moray West,Under construction,882,2022,2025,22,60,Ignitis Grupe & Ocean Winds,Under construction,Siemens Gamesa (2022),882,45,58.097,-3.007
-Monopile,Hollandse Kust Noord 5,Under construction,759,2020,2023,18.5,69,Eneco & Shell,Under construction,Siemens Gamesa,759,12,52.327,4.072
-Monopile,Hollandse Kust Zuid 3&4,Under construction,749,2019,2023,27,69,Allianz Capital Partners & BASF & Vattenfall,Under construction,Siemens Gamesa,749,20,52.28,4.084
-Gravity Base,Fécamp,Under construction,497,2012,2023,18.5,71,EDF Renouvelables & Enbridge & Skyborn Renewables,Under construction,Siemens Gamesa,497,29,49.866,0.268
-Jacket,Saint Brieuc,Under construction,496,2012,2023,20,62,Iberdrola Renovables,Under construction,Siemens Gamesa,496,29.5,48.853,-2.536
-Monopile,Isles of Yeu / Noirmoutier,Under construction,496,2014,2025,20,62,Ocean Winds & Sumimoto Corporation & Caisse des Dépôts et consignations & Vendee Energie,Under construction,Siemens Gamesa,496,27,46.874,-2.513
-Jacket,Dieppe / Le Tréport,Under construction,496,2012,2025,14,62,Ocean Winds & Sumimoto Corporation & Caisse des Dépôts et consignations,Under construction,Siemens Gamesa,496,15,50.149,1.121
-Monopile,Baltic Eagle,Under construction,476.25,2018,2024,30,50,Iberdrola Renovables,Under construction,MHI Vestas Offshore Wind,476.25,43,54.827,13.866
-Jacket,Neart na Gaoithe,Under construction,448,2015,2024,18,54,EDF Renouvelables & ESB,Under construction,SIEMENS Wind Power,448,50,56.2676,-2.25
-Monopile,Courseulles-sur-Mer,Under construction,448,2012,2025,10,64,Canada Pension Plan Investment Board (CPPIB) & EDF Renouvelables & Enbridge & Skyborn Renewables,Under construction,Siemens Gamesa,448,26.5,49.469,-0.522
-Monopile,Gode Wind 3,Under construction,253,2018,2024,42,22,Ørsted,Under construction,Siemens Gamesa,253,33,54.0405,7.0935
-Barge,EolMed,Under construction,30,2015,2025,15,3,BW Ideol & Quadran Energies Marines & TotalEnergies,Under construction,MHI Vestas Offshore Wind (2022),30,55,43.023,3.327
-Semi-Sub,EFGL,Under construction,30,2015,2024,16,3,Caisse des Dépôts et consignations & Ocean Winds,Under construction,MHI Vestas Offshore Wind (2022),30,70,42.833,3.265
-TLP,Provence Grand Large,Under construction,25,2016,2023,17,3,Canada Pension Plan Investment Board (CPPIB) & EDF Renouvelables & Enbridge,Under construction,Siemens Gamesa,25,100,43.19,4.794
-Jacket,Seagreen,Partially online,1075,2019,2023,34.5,114,SSE Renewables & TotalEnergies,Partially online,MHI Vestas Offshore Wind,1075,52.5,56.59,-1.74
-Monopile,Hollandse Kust Zuid 1&2,Partially online,760,2018,2023,27,70,Allianz Capital Partners & BASF & Vattenfall,Partially online,Siemens Gamesa,760,20,52.327,4.072
-Monopile,Arcadis Ost 1,Partially online,247,2018,2023,17,27,Parkwind & PMV,Partially online,MHI Vestas Offshore Wind,247,43.5,54.823,13.643
-Spar,Hywind Tampen,Partially online,95,Unknown,2023,140,11,Equinor & Idemitsu Petroleum Norge & OMV & Petoro & Vår Energi AS & Wintershall DEA Norge,Partially online,SIEMENS Wind Power,95,280,61.361,2.317
-Monopile,Hornsea Two,Online,1386,2017,2022,99,165,AXA & Crédit Agricole & Ørsted,Online,Siemens Gamesa,1386,36,53.94,1.688
-Monopile,Hornsea 1,Online,1218,2014,2020,103,174,Global Infrastructure Partners & Ørsted,Online,SIEMENS Wind Power,1218,32.5,53.885,1.791
-Jacket,Moray East,Online,950,2017,2022,22,100,China Three Gorges & Diamond Green Limited & Ocean Winds,Online,MHI Vestas Offshore Wind,950,45,58.188,-2.721
-Monopile,Triton Knoll,Online,857,2017,2022,42,90,J-Power & Kansai Electric Power & RWE,Online,MHI Vestas Offshore Wind,857,17.5,53.479,0.837
-Monopile,Borssele 1&2,Online,752,2016,2020,23,94,Norges Bank Investment Management & Ørsted,Online,SIEMENS Wind Power,752,26.85,51.683,3.066
-Monopile,Borssele 3&4,Online,731.5,2016,2021,40,77,Eneco & Inpex & Luxcara & Partners Group & Shell,Online,MHI Vestas Offshore Wind,731.5,27,51.7,2.928
-3-Legs Jacket,East Anglia One,Online,714,2015,2020,48.5,102,Iberdrola Renovables & InfraRed Capital Partners & Macquarie Capital & The Renewables Infrastructure Group (TRIG),Online,SIEMENS Wind Power,714,36.5,52.234,2.478
-Monopile,London Array,Online,630,Unknown,2013,20,175,CDPQ & Masdar & Ørsted & RWE,Online,SIEMENS Wind Power A/S,630,12,51.6256,1.4958
+Monopile,Borkum Riffgrund 3,Under construction,913,2017,2025,52.5,83,Ørsted,Under construction,Siemens Gamesa (2022),913,31.5,54.04,6.18
+Monopile,Moray West,Under construction,882,2022,2025,22,60,EDP Renovables,Under construction,Siemens Gamesa (2022),882,45,58.097,-3.007
+Monopile,Isles of Yeu / Noirmoutier,Under construction,496,2014,2025,20,62,"GDF Suez, EDPR, Neoen",Under construction,Siemens Gamesa,496,27,46.874,-2.513
+Jacket,Dieppe / Le Tréport,Under construction,496,2012,2025,14,62,"Engie, EDPR",Under construction,Siemens Gamesa,496,15,50.149,1.121
+Jacket,Baltic Eagle,Under construction,476.25,2018,2024,30,50,Iberdrola,Under construction,MHI Vestas Offshore Wind,476.25,43,54.827,13.866
+Jacket,Neart na Gaoithe,Under construction,448,2015,2024,18,54,,Under construction,SIEMENS Wind Power,448,50,56.2676,-2.25
+Monopile,Courseulles-sur-Mer,Under construction,448,2012,2025,10,64,,Under construction,Siemens Gamesa,448,26.5,49.469,-0.522
+Monopile,Gode Wind 3,Under construction,253,2018,2024,42,23,Ørsted,Under construction,Siemens Gamesa,253,33,54.0405,7.0935
+Semi-sub,Eolink Demonstrator (SEM-REV),Under construction,5,Unknown,2024,20,1,Eolink,Under construction,Eolink,5,35,48.353,-4.562
+Monopile,Dogger Bank (phase A),Partially online,1200,2019,2024,131,95,"Dogger Bank JV (SSE ,  Equinor )",Partially online,GE Renewable Energy,1200,27.5,54.769,1.908
+Gravity Base,Fécamp,Partially online,497,2012,2024,18.5,71,"EDF & Enbridge, WPD Offshore and Nass&Wind Offshore",Partially online,Siemens Gamesa,497,29,49.866,0.268
+Jacket,Saint Brieuc,Partially online,496,2012,2024,20,62,"Iberdrola EOLE-RES, CDC",Partially online,Siemens Gamesa,496,29.5,48.853,-2.536
+Monopile,Hornsea Two,Online,1386,2017,2022,99,165,Ørsted (formerly Dong Energy),Online,Siemens Gamesa,1386,36,53.94,1.688
+Monopile,Hornsea 1,Online,1218,2014,2020,103,174,Ørsted (formerly Dong Energy),Online,SIEMENS Wind Power,1218,32.5,53.885,1.791
+Jacket,Seagreen,Online,1075,2019,2023,34.5,114,SSE Renewables & Total SA,Online,MHI Vestas Offshore Wind,1075,52.5,56.59,-1.74
+Jacket,Moray East,Online,950,2017,2022,22,100,"EDP Renovables (43.4%), DGEL (33.4%), Engie (23.3%)",Online,MHI Vestas Offshore Wind,950,45,58.188,-2.721
+Monopile,Triton Knoll,Online,857,2017,2022,42,90,RWE,Online,MHI Vestas Offshore Wind,857,17.5,53.479,0.837
+Monopile,Hollandse Kust Zuid 3&4,Online,760,2019,2023,27,70,Vattenfall,Online,Siemens Gamesa,760,20,52.28,4.084
+Monopile,Hollandse Kust Zuid 1&2,Online,760,2018,2023,27,69,Vattenfall,Online,Siemens Gamesa,760,20,52.327,4.072
+Monopile,Hollandse Kust Noord 5,Online,760,2020,2023,18.5,69,CrossWind,Online,Siemens Gamesa,760,12,52.327,4.072
+Monopile,Borssele 1&2,Online,752,2016,2020,23,94,Ørsted,Online,SIEMENS Wind Power,752,26.85,51.683,3.066
+Monopile,Borssele 3&4,Online,731.5,2016,2021,40,77,Blauwind,Online,MHI Vestas Offshore Wind,731.5,27,51.7,2.928
+Three legs jacket,East Anglia One,Online,714,2015,2020,48.5,102,Scottish Power Renewables,Online,SIEMENS Wind Power,714,36.5,52.234,2.478
+Monopile,London Array,Online,630,Unknown,2013,20,175,"Ørsted (formerly Dong Energy)(25%), Caisse de dépôt et placement du Québec (25%) E.ON (30%), Masdar (20%)",Online,SIEMENS Wind Power A/S,630,12,51.6256,1.4958
 Monopile,Kriegers Flak,Online,604.8,2016,2021,20,72,Vattenfall,Online,SIEMENS Wind Power,604.8,30,55.027,12.939
-Monopile,Gemini,Online,600,Unknown,2016,56,150,Alte Leipziger-Hallesche & HVC & Northland Power & Siemens,Online,SIEMENS Wind Power A/S,600,40,54.036,5.963
-Jacket,Beatrice 2,Online,588,2014,2019,13.5,84,Copenhagen Infrastructure Partners & SDIC Power & SSE Renewables,Online,SIEMENS Wind Power,588,42.5,58.254,-2.884
-Monopile,Gwynt y Môr,Online,576,Unknown,2015,13,160,Macquarie Capital & RWE & Siemens & Stadwerke München,Online,SIEMENS Wind Power A/S,576,20,53.4616,-3.5927
-Monopile,Race Bank,Online,573.3,Unknown,2018,28,91,Macquarie Capital & Ørsted,Online,SIEMENS Wind Power A/S,573.3,18,53.276,0.841
-Monopile,EnBW Hohe See,Online,521.85,Unknown,2019,102.5,71,Canada Pension Plan Investment Board (CPPIB) & Enbridge & EnBW,Online,SIEMENS Wind Power,521.85,40,54.444,6.329
-Monopile,Greater Gabbard,Online,504,Unknown,2012,34.2,140,RWE & SSE Renewables,Online,SIEMENS Wind Power A/S,504,26,51.8836,1.9354
-Monopile,Saint-Nazaire,Online,480,2012,2022,16,80,Canada Pension Plan Investment Board (CPPIB) & EDF Renouvelables & Enbridge,Online,GE Renewable Energy,480,18.5,47.157,-2.606
-Monopile & Suction Bucket Jacket,Borkum Riffgrund II,Online,450,2018,2018,57,56,Global Infrastructure Partners & Ørsted,Online,MHI Vestas Offshore Wind,450,26,53.956,6.496
+Monopile,Gemini,Online,600,Unknown,2016,56,150,"Northland 60%, Siemens Financial Services 20%, Van Oord 10%, HVC 10%",Online,SIEMENS Wind Power A/S,600,40,54.036,5.963
+Jacket,Beatrice 2,Online,588,2014,2019,13.5,84,"SDIC Power (25%), Scottish and Southern (40%) Copenhagen Infrastructure Partners (35%)",Online,SIEMENS Wind Power,588,42.5,58.254,-2.884
+Monopile,Gwynt y Môr,Online,576,Unknown,2015,13,160,"Innogy, Green Investment Bank, Stadtwerke Munchen, Siemens",Online,SIEMENS Wind Power A/S,576,20,53.4616,-3.5927
+Monopile,Race Bank,Online,573.3,Unknown,2018,28,91,Ørsted (formerly Dong Energy) / Macquarie,Online,SIEMENS Wind Power A/S,573.3,18,53.276,0.841
+Monopile,EnBW Hohe See,Online,521.85,Unknown,2019,102.5,71,EnBW,Online,SIEMENS Wind Power,521.85,40,54.444,6.329
+Monopile,Greater Gabbard,Online,504,Unknown,2012,34.2,140,"Innogy, SSE",Online,SIEMENS Wind Power A/S,504,26,51.8836,1.9354
+Monopile,Saint-Nazaire,Online,480,2012,2022,16,80,"EDF & Dong, WPD Offshore and Nass&Wind Offshore",Online,GE Renewable Energy,480,18.5,47.157,-2.606
+Jacket & Monopile,Borkum Riffgrund II,Online,450,2018,2018,57,56,Ørsted (formerly Dong Energy),Online,MHI Vestas Offshore Wind,450,26,53.956,6.496
+Tripile,BARD Offshore 1,Online,440,Unknown,2013,93.5,80,Ocean Breeze Energy,Online,BARD,440,40,54.3557,5.98
+Monopile,Veja Mate,Online,422.1,Unknown,2017,88.5,67,Highland Group (Laidlaw Capital) / Siemens Financial Services / Copenhagen Infrastructure Partners,Online,SIEMENS Wind Power A/S,422.1,40,54.317,5.871
 Monopile,Horns Rev 3,Online,406.7,2015,2019,29.6,49,Vattenfall,Online,MHI Vestas Offshore Wind,406.7,15.5,55.702,7.689
-Monopile,Veja Mate,Online,402,Unknown,2017,88.5,67,Copenhagen Infrastructure Partners & Laidlaw Capital Group & Siemens,Online,SIEMENS Wind Power A/S,402,40,54.317,5.871
-Monopile,Dudgeon East,Online,402,2014,2017,26,67,China Resources Power & Equinor & Masdar,Online,SIEMENS Wind Power A/S,402,21.5,53.265,1.38
-Monopile,Rampion,Online,400.2,Unknown,2018,18,116,Enbridge & Macquarie Capital & RWE,Online,MHI Vestas Offshore Wind,400.2,34.5,50.67,-0.277
-Tripod,Global Tech I,Online,400,Unknown,2015,84,80,Axpo International & Entega & Esportes Offshore Beteiligungs & FC Wind 1&2 & GTU I&II & Norderland Projeckt & Stadwerke München & Windreich,Online,ADWEN,400,40,54.507,6.364
-Tripile,BARD Offshore 1,Online,400,Unknown,2013,93.5,80,Macquarie Capital,Online,BARD,400,40,54.3557,5.98
-Monopile,Anholt,Online,399.6,2010,2013,30,111,Ørsted & Pension Danmark & PKA,Online,SIEMENS Wind Power A/S,399.6,16.75,56.5354,11.2112
-Monopile,Merkur Offshore,Online,396,Unknown,2019,60,66,ADEME & DEME NV & GE Renewable Energy & InfraRed Capital Partners & Partners Group,Online,GE Renewable Energy,396,30,54.043,6.554
-Monopile,West of Duddon Sands,Online,388.8,Unknown,2014,17.6,108,Iberdrola Renovables & Ørsted,Online,SIEMENS Wind Power A/S,388.8,20.5,53.984,-3.464
-Monopile,Arkona,Online,385,Unknown,2018,35,60,Equinor & RWE,Online,Siemens Gamesa,385,29.5,54.782,14.121
-Monopile,Norther,Online,369.6,Unknown,2019,24,44,Elicio & Eneco & Mitsubishi Corporation,Online,MHI Vestas Offshore Wind,369.6,22.5,51.527,3.014
-Monopile,Walney 1 & 2,Online,367.2,Unknown,2012,15,102,Ampere Fund & Ørsted & PGGM & SSE Renewables,Online,SIEMENS Wind Power A/S,367.2,24.5,54.0447,-3.5024
-Jacket,Wikinger,Online,361.16,Unknown,2017,35,70,Iberdrola Renovables,Online,ADWEN,361.16,35,54.834,14.068
-Monopile,Galloper,Online,352.8,Unknown,2018,27,56,Macquarie Capital & Macquarie Capital & RWE & Siemens & Sumimoto Corporation,Online,SIEMENS Wind Power A/S,352.8,31.5,51.893,2.034
-Monopile,Kaskasi,Online,342,2018,2022,35,38,RWE,Online,Siemens Gamesa,342,21.5,54.489,7.695
-Monopile,Nordsee One,Online,332.1,Unknown,2017,46,54,Northland Power & RWE,Online,Senvion,332.1,30,53.979,6.814
-Monopile,Walney 3 (Extension Phase 1 - West),Online,330,2017,2018,15,40,Ørsted & PFA & PKA,Online,MHI Vestas Offshore Wind,330,21,54.088,-3.738
-Monopile,Gode Wind I,Online,330,Unknown,2016,37.5,55,Glennmont Partners & Global Infrastructure Partners & Ørsted,Online,SIEMENS Wind Power A/S,330,30.5,54.041,6.994
-Monopile,Walney 3 (Extension Phase 2 - East),Online,329,2017,2018,15,47,Ørsted & PFA & PKA,Online,Siemens Gamesa,329,21,54.088,-3.738
-Monopile,Sheringham Shoal,Online,316.8,Unknown,2012,22,88,Equinor & Equitix & Macquarie Capital & The Renewables Infrastructure Group (TRIG),Online,SIEMENS Wind Power A/S,316.8,18.5,53.1345,1.1474
-Monopile,Borkum Riffgrund I,Online,312,Unknown,2015,44.5,78,Greencoat Renewables & Kirbi (LEGO) & Ørsted & Oticon,Online,SIEMENS Wind Power A/S,312,26,53.967,6.554
-Monopile,Rentel,Online,308.7,Unknown,2018,34,42,Aspiravi & DEME NV & Elicio & Power at Sea & Rent a Port & Socofe & SRIW & Z-Kracht,Online,Siemens Gamesa,308.7,29,51.591,2.945
-Monopile,Amrumbank West,Online,302.4,Unknown,2015,35,80,RWE,Online,SIEMENS Wind Power,302.4,23,54.522,7.71
-Jacket & Monopile,EnBW Baltic 2,Online,300.6,Unknown,2015,32,80,EnBW & Macquarie Capital,Online,SIEMENS Wind Power A/S,300.6,34.5,54.982,13.162
+Monopile,Merkur Offshore,Online,405.9,Unknown,2019,60,66,DEME Concessions NV / Infrared capital partners / parteners group / etc etc,Online,GE Renewable Energy,405.9,30,54.043,6.554
+Monopile,Dudgeon East,Online,402,2014,2017,26,67,,Online,SIEMENS Wind Power A/S,402,21.5,53.265,1.38
+Monopile,Rampion,Online,400.2,Unknown,2018,18,116,"E.ON, Enbridge, Green Investment Bank",Online,MHI Vestas Offshore Wind,400.2,34.5,50.67,-0.277
+Tripod,Global Tech I,Online,400,Unknown,2015,84,80,"HEAG Sudhessische Energy (24.9%), Northerland Projekt (8.05%) and Windreich (8.05%)",Online,ADWEN,400,40,54.507,6.364
+Monopile,Anholt,Online,399.6,2010,2013,30,111,"Ørsted (formerly Dong Energy) (50%), Pension Danmark (30%), PKA (20%)",Online,SIEMENS Wind Power A/S,399.6,16.75,56.5354,11.2112
+Monopile,West of Duddon Sands,Online,388.8,Unknown,2014,17.6,108,"Iberdrola, Ørsted (formerly Dong Energy)",Online,SIEMENS Wind Power A/S,388.8,20.5,53.984,-3.464
+Monopile,Arkona,Online,385,Unknown,2018,35,60,"E.ON, Equinor (formerly known as Statoil)",Online,Siemens Gamesa,385,29.5,54.782,14.121
+Monopile,Norther,Online,369.6,Unknown,2019,24,44,"Eneco 25%, Mitsubishi 25%, Nethys 50%",Online,MHI Vestas Offshore Wind,369.6,22.5,51.527,3.014
+Monopile,Walney 1 & 2,Online,367.2,Unknown,2012,15,102,"Ørsted (formerly Dong Energy) (50.1%) , SSE (25.1%), PGGM & Ampere (24.8%)",Online,SIEMENS Wind Power A/S,367.2,24.5,54.0447,-3.5024
+Monopile,Galloper,Online,352.8,Unknown,Unknown,27,56,"Innogy, Siemens Financial, Green Investment Bank, Macquarie Capital, Sumitomo",Online,SIEMENS Wind Power A/S,352.8,31.5,51.893,2.034
+Jacket,Wikinger,Online,350,Unknown,2017,35,70,Iberdrola,Online,ADWEN,350,35,54.834,14.068
+Monopile,Kaskasi,Online,342,2018,2022,35,38,Innogy,Online,Siemens Gamesa,342,21.5,54.489,7.695
+Monopile,Nordsee One,Online,332.1,Unknown,2017,46,54,"Northland Power, Innogy",Online,Senvion,332.1,30,53.979,6.814
+Monopile,Gode Wind I,Online,332.1,Unknown,2016,37.5,55,Ørsted (formerly Dong Energy) (50%) Global Infrastructure Partners (50%),Online,SIEMENS Wind Power A/S,332.1,30.5,54.041,6.994
+Monopile,Walney 3 (Extension Phase 1 - West),Online,330,2017,2018,15,40,"Ørsted (50%), PKA (25%) & PFA (25%)",Online,MHI Vestas Offshore Wind,330,21,54.088,-3.738
+Monopile,Walney 3 (Extension Phase 2 - East),Online,329,2017,2018,15,47,"Ørsted (50%), PKA (25%) & PFA (25%)",Online,Siemens Gamesa,329,21,54.088,-3.738
+Monopile,Sheringham Shoal,Online,316.8,Unknown,2012,22,88,Equinor,Online,SIEMENS Wind Power A/S,316.8,18.5,53.1345,1.1474
+Suction Bucket Jacket,Borkum Riffgrund I,Online,312,Unknown,2015,44.5,78,"Ørsted (formerly Dong Energy), Oticon, Kirbi (LEGO)",Online,SIEMENS Wind Power A/S,312,26,53.967,6.554
+monopile,Rentel,Online,308.7,Unknown,2018,34,42,Rentel NV / Aspiravi Offshore NV / power@sea NV / etc etc,Online,Siemens Gamesa,308.7,29,51.591,2.945
+Monopile,Amrumbank West,Online,302.4,Unknown,2015,35,80,E.ON,Online,SIEMENS Wind Power,302.4,23,54.522,7.71
 Monopile,Thanet,Online,300,Unknown,2010,7.75,100,Vattenfall,Online,MHI Vestas Offshore Wind,300,22.5,51.4306,1.6331
-Jacket,Thornton Bank II + III,Online,295.2,Unknown,2013,28.5,48,DEME NV & EDF Renouvelables & Marguerite Fund & Nuhma & RWE & Société régionale d'investissement de Wallonie & Socofe,Online,Senvion,295.2,21,51.556,2.969
-Jacket,Nordsee Ost,Online,295.2,Unknown,2015,22.5,48,RWE,Online,Senvion,295.2,21.5,54.444,7.682
-Monopile,Sandbank,Online,288,Unknown,2017,95,72,Stadwerke München & Vattenfall,Online,SIEMENS Wind Power A/S,288,33,55.193,6.859
-Monopile,Meerwind Süd & OSt,Online,288,Unknown,2015,35,80,China Three Gorges & China Yangtze Power & Windland Energieerzeugungs,Online,SIEMENS Wind Power A/S,288,24,54.392,7.704
-Monopile,DanTysk,Online,288,Unknown,2015,70,80,Stadwerke München & Vattenfall,Online,SIEMENS Wind Power A/S,288,27,55.137,7.2
-Monopile,Butendiek,Online,288,Unknown,2015,32,80,CDC Infrastructure & ewz & Industriens Pensions & Itochu & Marguerite Fund & Siemens & Skyborn Renewables,Online,SIEMENS Wind Power A/S,288,20.5,55.019,7.774
-Monopile,Lincs,Online,270,Unknown,2013,8,75,Centrica & Ørsted & Siemens,Online,SIEMENS Wind Power A/S,270,24.5,53.1915,0.4913
+Jacket,Thornton Bank II + III,Online,295.2,2003,2013,28.5,48,C-Power,Online,Senvion,295.2,21,51.556,2.969
+Jacket,Nordsee Ost,Online,295.2,Unknown,2015,22.5,48,Innogy,Online,Senvion,295.2,21.5,54.444,7.682
+Jacket & Monopile,EnBW Baltic 2,Online,290,Unknown,2015,32,80,EnBW 51%/ (Macquarie Capital + PGGM 49%),Online,SIEMENS Wind Power A/S,290,34.5,54.982,13.162
+Monopile,Sandbank,Online,288,Unknown,2017,95,72,"Vattenfall, Stadtwerke Munchen GmbH",Online,SIEMENS Wind Power A/S,288,33,55.193,6.859
+Monopile,Meerwind Süd & OSt,Online,288,Unknown,2015,35,80,"WindMW (China Three Gorges 80%, Windland Energieerzeugungs 20%)",Online,SIEMENS Wind Power A/S,288,24,54.392,7.704
+Monopile,DanTysk,Online,288,Unknown,2015,70,80,"Vattenfall (51%), Stadtwerke München (49%)",Online,SIEMENS Wind Power A/S,288,27,55.137,7.2
+Monopile,Butendiek,Online,288,Unknown,2015,32,80,"Marguerite Fund, Industriens Pension, PKA, Siemens, WPD, CDC",Online,SIEMENS Wind Power A/S,288,20.5,55.019,7.774
+Monopile,Lincs,Online,270,Unknown,2013,8,75,"Centrica (50%), Dong (25%), Siemens PV (25%)",Online,SIEMENS Wind Power A/S,270,24.5,53.1915,0.4913
 Monopile,Deutsche Bucht,Online,260.4,Unknown,2019,92,31,Northland Power,Online,MHI Vestas Offshore Wind,260.4,40,54.305,5.799
-Monopile,Burbo Bank extension,Online,258,2014,2017,10,32,Greencoat UK Wind & Kirbi (LEGO) & Ørsted,Online,MHI Vestas Offshore Wind,258,8.5,53.483,-3.273
-Monopile,Seamade (Seastar),Online,252,Unknown,2020,40,30,Aspiravi & DEME NV & Elicio & Eneco & Ocean Winds & Power at Sea & Rent a Port & Socofe,Online,Siemens Gamesa,252,30,51.632,2.86
-Monopile,Gode Wind II,Online,252,Unknown,2016,80,42,Industriens Pensions & Laegernes Pensionkasse & Laerernes Pension & Ørsted & PKA,Online,SIEMENS Wind Power A/S,252,31,54.041,6.994
-Monopile,Seamade (Mermaid),Online,235.2,Unknown,2020,54,28,Aspiravi & DEME NV & Elicio & Eneco & Ocean Winds & Power at Sea & Rent a Port & Socofe,Online,Siemens Gamesa,235.2,32,51.718,2.739
-Monopile,Humber Gateway,Online,219,Unknown,2015,8,73,RWE,Online,MHI Vestas Offshore Wind,219,14.5,53.644,0.293
-Monopile,Northwester 2,Online,218.5,Unknown,2020,46,23,Parkwind & Summit Tailwind,Online,MHI Vestas Offshore Wind,218.5,32.5,51.6867,2.775
-Monopile,Northwind,Online,216,Unknown,2014,37.5,72,Aspiravi & Colryut & Sumimoto Corporation,Online,MHI Vestas Offshore Wind,216,24,51.619,2.901
-Monopile,Westermost Rough,Online,210,Unknown,2015,8,35,Macquarie Capital & Marubeni & Ørsted,Online,SIEMENS Wind Power A/S,210,17.5,53.805,0.149
-Monopile,Horns Rev 2 (blade upgrade until 2016),Online,209.3,2005,2009,30,91,Ørsted,Online,SIEMENS Wind Power A/S,209.3,13,55.6008,7.5825
-Gravity Base,Rødsand II,Online,207,2008,2010,23,90,RWE & SEAS-NVE,Online,SIEMENS Wind Power A/S,207,9,54.5557,11.5473
-Monopile,Trianel Windpark Borkum 2,Online,202.56,Unknown,2020,45,32,EWE & EWZ & Fontavis & Trianel,Online,Senvion,202.56,30,54.05,6.466
+Monopile,Burbo Bank extension,Online,258,2014,2017,10,32,"Ørsted (formerly Dong Energy), PKA, KIRKBI (Lego Group)",Online,MHI Vestas Offshore Wind,258,8.5,53.483,-3.273
+Monopile,Arcadis Ost 1,Online,257,2018,2023,17,27,Parkwind,Online,MHI Vestas Offshore Wind,257,43.5,54.823,13.643
+Monopile,Seamade (Seastar),Online,252,Unknown,2020,40,30,,Online,Siemens Gamesa,252,30,51.632,2.86
+Monopile,Gode Wind II,Online,252,Unknown,2016,80,42,"Ørsted (formerly Dong Energy), Global Infrastructure Partners",Online,SIEMENS Wind Power A/S,252,31,54.041,6.994
+Monopile,Seamade (Mermaid),Online,235.2,Unknown,2020,54,28,Seamade NV,Online,Siemens Gamesa,235.2,32,51.718,2.739
+Monopile,Humber Gateway,Online,219,Unknown,2015,8,73,E.ON,Online,MHI Vestas Offshore Wind,219,14.5,53.644,0.293
+Monopile,Northwester 2,Online,218.5,Unknown,2020,46,23,"Colruyt, InControl, Wagram Invest, TTR energy",Online,MHI Vestas Offshore Wind,218.5,32.5,51.6867,2.775
+Monopile,Northwind,Online,216,Unknown,2014,37.5,72,"Aspiravi (33.3%), Colruyt (33,3%), Sumitomo (33,3%)",Online,MHI Vestas Offshore Wind,216,24,51.619,2.901
+Monopile,Westermost Rough,Online,210,Unknown,2015,8,35,"DONG (50%), Marubeni (25%)and Green Investment Bank (25%)",Online,SIEMENS Wind Power A/S,210,17.5,53.805,0.149
+Monopile,Horns Rev 2 (blade upgrade until 2016),Online,209.3,2005,2009,30,91,Ørsted (formerly Dong Energy),Online,SIEMENS Wind Power A/S,209.3,13,55.6008,7.5825
+Gravity Base,Rødsand II,Online,207,2008,2010,23,90,"SEAS-NVE 80%, E.On 20%",Online,SIEMENS Wind Power A/S,207,9,54.5557,11.5473
+Monopile,Trianel Windpark Borkum 2,Online,203,Unknown,2020,45,32,Trianel,Online,Senvion,203,30,54.05,6.466
 Tripod,Trianel Windpark Borkum,Online,200,Unknown,2015,45,40,Trianel,Online,ADWEN,200,30,54.046,6.457
-Monopile,Robin Rigg,Online,174,Unknown,2010,9.5,58,RWE,Online,MHI Vestas Offshore Wind,174,5,54.7465,-3.6925
-Monopile,Gunfleet Sands (Phase 1 and 2),Online,172.8,Unknown,2010,7,48,Development Bank of japan & Jera & Ørsted,Online,SIEMENS Wind Power A/S,172.8,8.5,51.7298,1.2383
-Gravity Base,Nysted,Online,165.6,Unknown,2003,8,72,Ørsted & Pension Danmark & Stadtwerke Lübeck,Online,SIEMENS Wind Power A/S,165.6,8,54.5491,11.714
-Monopile,Nobelwind,Online,165,Unknown,2017,47,50,Meewind & Parkwind & Sumimoto Corporation,Online,MHI Vestas Offshore Wind,165,26,51.664,2.816
-Monopile,Belwind I,Online,165,Unknown,2010,48.5,55,Parkwind & Sumimoto & Zeewind,Online,MHI Vestas Offshore Wind,165,26,51.6691,2.8015
-Monopile,Horns Rev 1,Online,160,Unknown,2002,14,80,Ørsted & Vattenfall,Online,MHI Vestas Offshore Wind,160,10,55.4854,7.8397
-Jacket,Ormonde,Online,152.25,Unknown,2012,10,30,AMF & Vattenfall,Online,Senvion,152.25,23.5,54.0763,-3.5117
-Monopile,Eneco Luchterduinen,Online,129,Unknown,2015,24,43,Eneco & Mitsubishi Corporation,Online,MHI Vestas Offshore Wind,129,20,52.405,4.162
+Monopile,Vesterhav Nord,Online,176,2016,2023,6,21,Vattenfall,Online,Siemens Gamesa,176,21.5,56.622,8.054
+Monopile,Robin Rigg,Online,174,Unknown,2010,9.5,58,E.ON,Online,MHI Vestas Offshore Wind,174,5,54.7465,-3.6925
+Monopile,Gunfleet Sands (Phase 1 and 2),Online,172.8,Unknown,2010,7,48,"Ørsted (formerly Dong Energy) (50.1%), Marubeni Corporation (49.9%)",Online,SIEMENS Wind Power A/S,172.8,8.5,51.7298,1.2383
+Monopile,Vesterhav Syd,Online,168,2016,2023,7.25,20,Vattenfall,Online,Siemens Gamesa,168,21.5,56.073,7.99
+Gravity Base,Nysted,Online,165.6,Unknown,2003,8,72,"PensionDanmark (50%), Ørsted (formerly Dong Energy) (42,75%), Stadtwerke Lübeck (7,25%)",Online,SIEMENS Wind Power A/S,165.6,8,54.5491,11.714
+Monopile,Nobelwind,Online,165,Unknown,2017,47,50,"Meewind, Parkwind, Sumitomo",Online,MHI Vestas Offshore Wind,165,26,51.664,2.816
+Monopile,Belwind I,Online,165,Unknown,2010,48.5,55,"Parkwind (41%), Sumitomo (39%), Zeewind (20%)",Online,MHI Vestas Offshore Wind,165,26,51.6691,2.8015
+Monopile,Horns Rev 1,Online,160,Unknown,2002,14,80,"Vattenfall, Ørsted (formerly Dong Energy)",Online,MHI Vestas Offshore Wind,160,10,55.4854,7.8397
+Jacket,Ormonde,Online,152.25,Unknown,2012,10,30,"Vattenfall, AMF",Online,Senvion,152.25,23.5,54.0763,-3.5117
+Monopile,Eneco Luchterduinen,Online,129,Unknown,2015,24,43,Eneco(50%) Mitsubishi Corporation MC (50%),Online,MHI Vestas Offshore Wind,129,20,52.405,4.162
 Monopile,Prinses Amalia,Online,120,Unknown,2008,24.7,60,Eneco,Online,MHI Vestas Offshore Wind,120,21.5,52.5886,4.2232
-Monopile,EnBW Albatros,Online,117.6,Unknown,2020,105,16,Canada Pension Plan Investment Board (CPPIB) & Enbridge & EnBW,Online,SIEMENS Wind Power,117.6,40,54.515,6.279
-Monopile,Borkum Riffgat,Online,113.4,Unknown,2014,25,30,Enova & EWE,Online,SIEMENS Wind Power A/S,113.4,18,53.692,6.475
-Monopile,Nordergründe,Online,110.7,Unknown,2017,13,18,Gothaer Leben Renewables & John Laing & Skyborn Renewables,Online,Senvion,110.7,10,53.838,8.166
-Gravity Base,Lillgrund,Online,110.4,Unknown,2007,10,48,Vattenfall,Online,SIEMENS Wind Power,110.4,9,55.511,12.779
-Monopile,Egmond ann Zee,Online,108,Unknown,2007,12,36,Shell,Online,MHI Vestas Offshore Wind,108,16.5,52.6055,4.4206
-Monopile,Lynn,Online,97.2,Unknown,2008,5.2,27,BlackRock & Macquarie Capital,Online,SIEMENS Wind Power A/S,97.2,10,53.1667,0.4486
-Monopile,Inner Dowsing,Online,97.2,Unknown,2008,5,27,BlackRock & Macquarie Capital,Online,SIEMENS Wind Power A/S,97.2,10,53.1667,0.4486
-3-Legs Suction Bucket Jacket,EOWDC,Online,93.2,Unknown,2018,2.5,11,Vattenfall,Online,MHI Vestas Offshore Wind,93.2,24,57.225,-1.993
-Monopile,Rhyl Flats,Online,90,Unknown,2009,8,25,Greencoat UK Wind & Macquarie Capital & RWE,Online,SIEMENS Wind Power A/S,90,9.5,53.3795,-3.6436
+Monopile,EnBW Albatros,Online,117.6,Unknown,2020,105,16,EnBW,Online,SIEMENS Wind Power,117.6,40,54.515,6.279
+Monopile,Borkum Riffgat,Online,113.4,Unknown,2014,25,30,"EWE (90%), Enova (10%)",Online,SIEMENS Wind Power A/S,113.4,18,53.692,6.475
+Monopile,Nordergründe,Online,110.7,Unknown,2017,13,18,WPD / Gothaer Leben Renewables / John Laing,Online,Senvion,110.7,10,53.838,8.166
+Monopile,Lillgrund,Online,110.4,Unknown,2007,10,48,Vattenfall,Online,SIEMENS Wind Power,110.4,9,55.511,12.779
+Monopile,Egmond ann Zee,Online,108,Unknown,2007,12,36,,Online,MHI Vestas Offshore Wind,108,16.5,52.6055,4.4206
+Monopile,Lynn,Online,97.2,Unknown,2008,5.2,27,"Green Investment Bank, BlackRock",Online,SIEMENS Wind Power A/S,97.2,10,53.1667,0.4486
+Monopile,Inner Dowsing,Online,97.2,Unknown,2008,5,27,"Green Investment Bank, BlackRock",Online,SIEMENS Wind Power A/S,97.2,10,53.1667,0.4486
+Spar,Hywind Tampen,Online,95.04,Unknown,2023,140,11,Equinor,Online,SIEMENS Wind Power,95.04,280,61.361,2.317
+Three leg jacket with suction bucket,EOWDC,Online,93.2,Unknown,2018,2.5,11,Vattenfall,Online,MHI Vestas Offshore Wind,93.2,24,57.225,-1.993
+Monopile,Rhyl Flats,Online,90,Unknown,2009,8,25,"Innogy, Greencoat Capital (24.95%)",Online,SIEMENS Wind Power A/S,90,9.5,53.3795,-3.6436
 Monopile,Kentish Flats,Online,90,Unknown,2005,8.5,30,Vattenfall,Online,MHI Vestas Offshore Wind,90,5,51.4616,1.0933
-Monopile,Burbo Bank,Online,90,Unknown,2007,7.2,25,Ørsted,Online,SIEMENS Wind Power A/S,90,3,53.4833,-3.1755
-Monopile,Barrow,Online,90,Unknown,2006,7,30,Ørsted,Online,MHI Vestas Offshore Wind,90,22,53.9875,-3.2702
-Monopile,Teesside,Online,62.1,Unknown,2013,1.5,27,EDF Renouvelables,Online,SIEMENS Wind Power A/S,62.1,10.5,54.6483,-1.0954
-Monopile,Scroby Sands,Online,60,Unknown,2004,2.5,30,RWE,Online,MHI Vestas Offshore Wind,60,6,52.6458,1.7876
-Monopile,North Hoyle,Online,60,Unknown,2003,6.5,30,RWE & Zephyr,Online,MHI Vestas Offshore Wind,60,8.5,53.4178,-3.4478
-Jacket & Tripod,alpha ventus,Online,60,Unknown,2010,45,12,EWE & RWE & Vattenfall,Online,ADWEN,60,30,54.0162,6.6275
+Monopile,Burbo Bank,Online,90,Unknown,2007,7.2,25,Ørsted (formerly Dong Energy),Online,SIEMENS Wind Power A/S,90,3,53.4833,-3.1755
+Monopile,Barrow,Online,90,Unknown,2006,7,30,Ørsted (formerly Dong Energy),Online,MHI Vestas Offshore Wind,90,22,53.9875,-3.2702
+Monopile,Teesside,Online,62.1,Unknown,2013,1.5,27,EDF EN,Online,SIEMENS Wind Power A/S,62.1,10.5,54.6483,-1.0954
+Monopile,Scroby Sands,Online,60,Unknown,2004,2.5,30,E.ON,Online,MHI Vestas Offshore Wind,60,6,52.6458,1.7876
+Monopile,North Hoyle,Online,60,Unknown,2003,6.5,30,"Innogy, Zephyr Investment",Online,MHI Vestas Offshore Wind,60,8.5,53.4178,-3.4478
+Tripod & Jacket,alpha ventus,Online,60,Unknown,2010,45,12,"DOTI (EWE 48%, E.ON 26%, Vatenfall 26%)",Online,ADWEN,60,30,54.0162,6.6275
 Monopile,Kentish Flats Extension,Online,49.5,Unknown,2015,8.5,15,Vattenfall,Online,MHI Vestas Offshore Wind,49.5,5,51.45,1.079
-Monopile,EnBW Baltic 1,Online,48.3,Unknown,2010,15,21,19 German Municipalities & EnBW,Online,SIEMENS Wind Power A/S,48.3,17.5,54.6093,12.6512
-Semi-Sub,Kincardine,Online,48,Unknown,2021,15,5,Cobra Wind International & Pilot Offshore Renewable Energy,Online,MHI Vestas Offshore Wind,48,67,57.014,-1.7912
-Gravity Base,Kårehamn,Online,48,Unknown,2013,6,16,RWE,Online,MHI Vestas Offshore Wind,48,14,56.984,17.022
-Steel Coffer Gravity Base,Pori Tahkoluoto 2,Online,42,Unknown,2017,2,10,Suomen Hyötytuuli Oy,Online,SIEMENS Wind Power A/S,42,15,61.6248,21.33
-Gravity Base,Blyth Demonstrator Project Phase 2,Online,41.5,Unknown,2017,6.5,5,EDF Renouvelables,Online,MHI Vestas Offshore Wind,41.5,47,55.166,-1.369
-Gravity Base,Middelgrunden,Online,40,Unknown,2001,5,20,HOFOR & Middelgrunden Cooperative,Online,SIEMENS Wind Power A/S,40,4,55.41276,12.4084
-Gravity Base,Thornton Bank I,Online,30,Unknown,2009,28.5,6,DEME NV & EDF Renouvelables & Marguerite Fund & Nuhma & RWE & Société régionale d'investissement de Wallonie & Socofe,Online,Senvion,30,19.5,51.5454,2.9378
-Monopile,Taranto,Online,30,2016,2022,3,10,Renexia,Online,MingYang,30,11,40.485,17.137
-Spar,Hywind Scotland,Online,30,Unknown,2017,25,5,Equinor & Masdar,Online,SIEMENS Wind Power A/S,30,108,57.484,-1.363
-Gravity Base,Gässlingegrund/Vänern,Online,30,Unknown,2009,4,10,Drift & Vänern,Online,Winwind Ltd,30,7,59.262,13.387
-Jacket,Nissum Bredning,Online,28,Unknown,2018,1,4,Jysk Energi & Nissum Bredning Vindmollelaug,Online,Siemens Gamesa,28,3,56.669,8.245
-Artificial Island,Ajos,Online,26.4,Unknown,2017,1,8,IKEA,Online,SIEMENS Wind Power A/S,26.4,3,65.6546,24.5313
+Monopile,EnBW Baltic 1,Online,48.3,Unknown,2010,15,21,"ENBW - 50%, 19 German municipalities - 50%",Online,SIEMENS Wind Power A/S,48.3,17.5,54.6093,12.6512
+Semi-sub,Kincardine,Online,48,Unknown,2021,15,5,KOWL,Online,MHI Vestas Offshore Wind,48,67,57.014,-1.7912
+Gravity Base,Blyth Demonstrator Project Phase 2,Online,41.5,Unknown,2017,6.5,5,,Online,MHI Vestas Offshore Wind,41.5,47,55.166,-1.369
+Gravity Base,Middelgrunden,Online,40,Unknown,2001,5,20,Ørsted (formerly Dong Energy),Online,SIEMENS Wind Power A/S,40,4,55.41276,12.4084
+Gravity Base,Thornton Bank I,Online,30,Unknown,2009,28.5,6,C-power,Online,Senvion,30,19.5,51.5454,2.9378
+Spar,Hywind Scotland,Online,30,Unknown,2017,25,5,Equinor,Online,SIEMENS Wind Power A/S,30,108,57.484,-1.363
+Gravity Base,Gässlingegrund/Vänern,Online,30,Unknown,2009,4,10,"Drift, Kraft",Online,Winwind Ltd,30,7,59.262,13.387
+Jacket,Nissum Bredning,Online,28,Unknown,2018,1,4,"Nissum Bredning Vindmollelaug,  Jysk Energi",Online,Siemens Gamesa,28,3,56.669,8.245
 Monopile,Arklow Bank,Online,25.2,Unknown,2004,10,7,GE Renewable Energy,Online,GE Renewable Energy,25.2,3.75,52.7912,-5.9492
-Semi-Sub,Windfloat Atlantic,Online,25,Unknown,2020,30,3,Ocean Winds & Principle Power & Repsol,Online,Vestas Wind Systems,25,100,41.569,-9.133
-Monopile,Samsø,Online,23,Unknown,2003,3.5,10,Difko & Samso Kommune,Online,SIEMENS Wind Power A/S,23,14.5,55.723,10.584
-Gravity Base,Sprogø,Online,21,Unknown,2009,2,7,Sund & Baelt,Online,MHI Vestas Offshore Wind,21,11,55.343,10.9579
-Monopile,Borssele 5,Online,19,2018,2020,75,2,Green Giraffe Holding & Investri Offshore B.V. & Octopus Energy Generation & Van Oord,Online,MHI Vestas Offshore Wind,19,27,51.709,3.003
-Pile Cap,"Rønland, Harboøre",Online,17.2,Unknown,2004,,8,Harboøre Møllelaug & Thyborøn-Harboøre Vindmøllelaug & Vindenergi,Online,SIEMENS Wind Power A/S,17.2,,56.6628,8.22
-Monopile,Gunfleet Sands 3 Demonstrator,Online,12,Unknown,2013,7,2,Ørsted,Online,SIEMENS Wind Power A/S,12,8.5,51.7298,1.2383
-Gravity Base,Avedøre Holme,Online,10.8,Unknown,2011,0.4,3,Hvidovre Vindmollelaug & Ørsted,Online,SIEMENS Wind Power,10.8,0.5,55.6006,12.4639
-Jacket,Beatrice Demonstrator,Online,10,Unknown,2007,25,2,SSE Renewables & Talisman Energy,Online,Senvion,10,45,58.0981,-3.0784
-Monopile & Suction Bucket Monopile,Frederikshavn (test site),Online,7.6,Unknown,2003,3.1,3,EDF Renouvelables,Online,Nordex,7.6,2.5,57.4429,10.5636
+Monopile,Samsø,Online,23,Unknown,2003,3.5,10,"Samso Kommune, Difko",Online,SIEMENS Wind Power A/S,23,14.5,55.723,10.584
+Gravity Base,Sprogø,Online,21,Unknown,2009,2,7,European Energy A/S,Online,MHI Vestas Offshore Wind,21,11,55.343,10.9579
+Monopile,Borssele 5,Online,19,2018,2020,75,2,Two Towers BV,Online,MHI Vestas Offshore Wind,19,27,51.709,3.003
+Pile Cap,"Rønland, Harboøre",Online,17.2,Unknown,2004,,8,"Vindenergi, Harboøre Møllelaug, Thyborøn-Harboøre Vindmøllelaug",Online,SIEMENS Wind Power A/S,17.2,,56.6628,8.22
+Monopile,Gunfleet Sands 3 Demonstrator,Online,12,Unknown,2013,7,2,Ørsted (formerly Dong Energy),Online,SIEMENS Wind Power A/S,12,8.5,51.7298,1.2383
+Gravity Base,Avedøre Holme,Online,10.8,Unknown,2011,0.4,3,"Ørsted (formerly Dong Energy), Hvidovre Vindmollelaug",Online,SIEMENS Wind Power,10.8,0.5,55.6006,12.4639
+Jacket,Beatrice Demonstrator,Online,10,Unknown,2007,25,2,"Scottish and Southern, Talisman Energy",Online,Senvion,10,45,58.0981,-3.0784
+Suction Bucket Monopile,Frederikshavn (test site),Online,7.6,Unknown,2003,3.1,3,EDF EN,Online,Nordex,7.6,2.5,57.4429,10.5636
 Jacket,Levenmouth Demonstration Turbine,Online,7,Unknown,2014,0.2,1,ORE Catapult,Online,Samsung Heavy Industries Co,7,2,56.173,-3.018
-Jacket,Belwind GE Haliade Demonstrator,Online,6,Unknown,2013,45,1,GE Renewable Energy,Online,GE Renewable Energy,6,26,51.688,2.836
-Gravity Base,Tunø Knob,Online,5,Unknown,1995,6,10,Eurowind Energy A/S,Online,MHI Vestas Offshore Wind,5,2.4,55.9682,10.3548
-Gravity Base,ELISA ELICAN,Online,5,Unknown,2018,1,1,Esteyco,Online,ADWEN,5,30,28.04754,-15.39173
+Jacket,Belwind GE Haliade Demonstrator,Online,6,Unknown,2013,45,1,GE Renewables (Alstom),Online,GE Renewable Energy,6,26,51.688,2.836
+Gravity Base,Tunø Knob,Online,5,Unknown,1995,6,10,Ørsted (formerly Dong Energy),Online,MHI Vestas Offshore Wind,5,2.4,55.9682,10.3548
 Monopile,Dollart Emden,Online,4.5,Unknown,2004,1,1,EWE,Online,Enercon,4.5,3,53.3324,7.21
-Spar,TetraSpar Demo (Metcentre),Online,3.6,NA,2021,10,1,RWE & Shell & Stiesdal Offshore Technologie & TEPCO Renewables,Online,SIEMENS Wind Power,3.6,200,59.1508,5.0135
-Monopile,Bockstigen (blade upgraded),Online,3.3,Unknown,2018,3,5,Momemtum Gruppen,Online,Vestas Wind Systems,3.3,7,57.0358,18.1497
-Gravity Base,Breitling,Online,3,Unknown,2006,0.5,1,Skyborn Renewables,Online,Nordex,3,2,54.1617,12.1318
-Steel Coffer Gravity Base,Pori Tahkoluoto 1,Online,2.3,Unknown,2010,11,1,Suomen Hyötytuuli Oy,Online,SIEMENS Wind Power A/S,2.3,15,61.6244,21.3524
-Spar,Hywind Demonstrator,Online,2.3,Unknown,2009,7,1,UNITECH Offshore,Online,SIEMENS Wind Power A/S,2.3,220,59.14,5.03
-Semi-Sub,Kincardine Pilot,Online,2,Unknown,2018,15,1,Cobra Wind International & Pilot Offshore Renewable Energy,Online,Vestas Wind Systems,2,77,57.016,-1.792
-Barge,Floatgen (SEM-REV),Online,2,Unknown,2018,20,1,Ecole Centrale Nantes & Gamesa & BW Ideol & IWES & RSK Environment & Universität Stuttgart & Zabals Innovation Consulting,Online,Vestas Wind Systems,2,30,47.239,-2.779
-Barge,DemoSATH (BIMEP),Online,2,NA,2022,18,1,RWE & SAITEC Offshore Technologies,Online,Not decided yet,2,85,43.465,-2.88
+Spar,TetraSpar Demo (Metcentre),Online,3.6,NA,2021,10,1,Shell RWE & Stiesdal,Online,SIEMENS Wind Power,3.6,200,59.1508,5.0135
+Gravity Base,Breitling,Online,3,Unknown,2006,0.5,1,WPD,Online,Nordex,3,2,54.1617,12.1318
+Spar,Hywind Demonstrator,Online,2.3,Unknown,2009,7,1,Equinor,Online,SIEMENS Wind Power A/S,2.3,220,59.14,5.03
+semi-sub,Kincardine Pilot,Online,2,Unknown,2018,15,1,KOWL,Online,Vestas Wind Systems,2,77,57.016,-1.792
+Barge,Floatgen (SEM-REV),Online,2,Unknown,2018,20,1,Floatgen,Online,Vestas Wind Systems,2,30,47.239,-2.779
 Spar,SeaTwirl S1,Online,0.3,Unknown,2015,0.3,1,SeaTwirl,Online,SeaTwirl,0.3,30,58.276,11.464
