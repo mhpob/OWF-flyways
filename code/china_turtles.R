@@ -5,12 +5,28 @@ library(dplyr)
 land <- '/vsizip/data/spatial/ne_10m_land.zip/ne_10m_land.shp' |> 
   read_sf()
 
+taiwan <- land |> 
+  st_crop(
+    st_bbox(c(
+      xmin = 119.36,
+      xmax = 122.3,
+      ymin = 21.85,
+      ymax = 25.5
+    ))
+  ) |> 
+  _[-c(1,2), ] |> 
+  st_combine() |> 
+  st_sf(geometry = _) |>
+  mutate(Capacity = 2200,
+         Province = 'Taiwan')
+
 ch_wind_capacity <- read.csv('data/ch_wind_capacity.csv')
 
 provinces <- '/vsizip/data/spatial/chn_adm_ocha_2020_shp.zip/chn_admbnda_adm1_ocha_2020.shp' |> 
   read_sf() |> 
   mutate(Province = gsub(' .*', '', ADM1_EN)) |> 
-  right_join(ch_wind_capacity)
+  right_join(ch_wind_capacity) |> 
+  bind_rows(taiwan)
 
 turtle_sites <- st_read('data/spatial/turtle_flyway.gpkg',
                         layer = 'turtle_flyway') |> 
@@ -28,7 +44,8 @@ ggplot() +
           aes(fill = Capacity)) +
   geom_sf_label(data = provinces,
           aes(label = Province),
-          nudge_x = -2, nudge_y = c(0,0,-1,0,0,0,0,0,0)) +
+          nudge_x = c(rep(-2, times = 9), 1),
+          nudge_y = c(0,0,-1,0,0,0,0,0,0,0)) +
   geom_sf(data = turtle_sites,
           aes(color = species, shape = type), size = 4) +
   scale_color_brewer(type = 'qual', palette = 'Set1',
