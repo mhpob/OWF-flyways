@@ -40,12 +40,24 @@ scale_fig <-
         plot.margin = unit(c(0, 0, 0, 0), 'mm'))
 
 library(ragg)
+# get dpi, starting with mm
+# https://www.tidyverse.org/blog/2020/08/taking-control-of-plot-scaling/
+scale_dpi <- function(w, h, r){
+  list(
+    width = ceiling(w / 25.4 * r),
+    height = ceiling(h / 25.4 * r),
+    res = r
+  )
+}
+scales <- scale_dpi(w = 85, h = 90, r = 500)
+
+
 agg_png("figures/figure1.png",
-        width = 170,
-        height = 180,
-        units = 'mm',
-        res = 500,
-        scaling = 1.3)
+        width = scales$width,
+        height = scales$height,
+        units = 'px',
+        res = scales$res,
+        scaling = 0.65)
 
 scale_fig
 
