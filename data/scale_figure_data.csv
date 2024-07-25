@@ -1,6 +1,8 @@
-label,space_min,space_max,time_min,time_max
-OWF Monitoring and n Observing platforms,1.00E+07,1.00E+14,60,315576000
-"Synoptic, n Numerical n Oceanography",1.00E+08,1.00E+19,1800,3155760000
-Migration and n Pop. Dynamics,1.00E+14,1.00E+19,2592000,631152000
-FI Surveys,1.00E+13,1.00E+18,604800,2592000
-Observing Network,1.00E+13,1.00E+17,1800,1577880000
+label,type,space_min,space_max,time_min,time_max
+OWF Monitoring and n Observing platforms,monitoring,1.00E+07,1.00E+14,60,315576000
+"Synoptic, n Numerical n Oceanography",monitoring,1.00E+08,1.00E+19,1800,3155760000
+"Migration, n Pop. Dynamics, n Fishing fleets",impact,1.00E+14,1.00E+19,2592000,631152000
+FI Surveys,monitoring,1.00E+13,1.00E+18,604800,2592000
+Observing Network,monitoring,1.00E+13,1.00E+17,1800,1577880000
+"OWF EMF, fouling, n and noise",impact,1.00E+06,1.00E+13,3600,315576000
+Fisheries,impact,1.00E+13,1.50E+15,2592000,315576000
