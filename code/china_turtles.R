@@ -1,9 +1,22 @@
+library(dplyr)
+library(basemaps)
+library(tidyterra)
+library(terra)
 library(sf)
 library(ggplot2)
-library(dplyr)
 
-land <- '/vsizip/data/spatial/ne_10m_land.zip/ne_10m_land.shp' |> 
+land <- '/vsizip/data/spatial/ne_10m_land.zip/ne_10m_land.shp' |>
   read_sf()
+
+base <- basemap_terra(
+  ext = st_bbox(
+    c(xmin = 102, xmax = 140, ymin = 10, ymax = 40),
+    crs = 4326
+  ),
+  map_service = 'esri',
+  map_type = 'world_terrain_base'
+) |> 
+  project('EPSG:4326')
 
 taiwan <- land |> 
   st_crop(
@@ -38,10 +51,10 @@ turtle_paths[c(1, 5), 'geom'] <- st_reverse(turtle_paths[c(5, 1), 'geom'])
 turtle_paths <- turtle_paths |> 
   mutate(type = rep(c('foraging', 'nesting'), each = 3))
 
-ggplot() +
-  geom_sf(data = land) +
+map <- ggplot() +
+  geom_spatraster_rgb(data = base) +
   geom_sf(data = provinces,
-          aes(fill = Capacity)) +
+          aes(fill = Capacity), alpha = 0.7) +
   geom_sf_label(data = provinces,
           aes(label = Province),
           nudge_x = c(rep(-2, times = 9), 1),
@@ -52,16 +65,54 @@ ggplot() +
                      guide =  guide_legend(order = 1)) +
   geom_sf(data = turtle_paths, arrow = arrow(length = unit(0.1, "inches")),
           aes(linetype = type)) +
-  scale_fill_viridis_c(option = 'B', trans = 'log', breaks = c(50, 500, 3000)) +
+  scale_fill_viridis_c(option = 'B', trans = 'log',
+                       breaks = c(50, 500, 3000)) +
   coord_sf(xlim = c(107, 135), ylim = c(15, 35)) +
   labs(x = NULL, y = NULL, color = 'Species', linetype = NULL, shape = NULL,
        fill = 'Capacity (MW)') +
   theme_minimal()+
   theme(legend.key.width = unit(2, 'line'),
-        legend.position =  c(0.9, 0.33),
-        legend.text = element_text(size =12),
-        legend.title = element_text(size = 14),
-        axis.text = element_text(size = 12))+
+        legend.position =  c(0.898, 0.4),
+        # legend.text = element_text(size =12),
+        # legend.title = element_text(size = 14),
+        # axis.text = element_text(size = 12),
+        plot.margin = unit(rep(0,4), 'mm'),
+        panel.grid = element_blank()
+        )+
   guides(linetype = guide_legend(order = 2,
                                  override.aes = list(alpha = 0.7)),
          shape = guide_legend(order  = 2))
+
+
+library(ragg)
+
+# get dpi, starting with mm
+# https://www.tidyverse.org/blog/2020/08/taking-control-of-plot-scaling/
+scale_dpi <- function(w, h, r){
+  list(
+    width = ceiling(w / 25.4 * r),
+    height = ceiling(h / 25.4 * r),
+    res = r
+  )
+}
+# ratio = 1.294425
+scales <- scale_dpi(w = 85, h = 66, r = 500)
+
+agg_png("ms_figures/figure3.png",
+        width = scales$width,
+        height = scales$height,
+        units = 'px',
+        res = scales$res,
+        scaling = 0.5)
+
+map
+
+dev.off()
+
+library(svglite)
+svglite("ms_figures/figure3.svg",
+        width = 85/25.4,
+        height = 66/25.4,
+        scaling = 0.5)
+map
+dev.off()
