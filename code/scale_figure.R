@@ -3,28 +3,35 @@ library(ggplot2)
 
 scale <- fread('data/scale_figure_data.csv')
 scale$label <- gsub(' n ', '\n', scale$label)
-
-label_loc <- copy(scale)
-label_loc[grepl('Pop', label), 'space_min'] <- 
-  label_loc[grepl('Pop', label), 'space_max']
-label_loc[grepl('EMF', label), 'time_min'] <- 
-  label_loc[grepl('EMF', label), 'time_max']
-
+scale <- scale[1:5]
+scale[grepl('Fishing fleets', label), 'label'] <- 'Migration,\nPop.Dynamics'
 
 scale_fig <-
   ggplot() +
-  geom_rect(data = scale,
+  geom_rect(data = scale[!grepl('Pop.', label)],
             aes(xmin = space_min/(1000^2), xmax = space_max/(1000^2),
-                ymin = time_min, ymax = time_max, color = label,
-                linetype = type),
+                ymin = time_min, ymax = time_max, color = label),
             fill = NA, linewidth = 2,
             show.legend = F) +
-  geom_label(data = label_loc,
+  geom_label(data = scale[!grepl('Pop.', label)],
              aes(x = space_min/(1000^2), y = time_min,
                  label = label, color = label),
              show.legend = F,
-             hjust = c(rep(0, 2), 1, rep(0, 4)),
-             vjust = c(rep(0, 5), 1, 0)) +
+             hjust = 0,
+             vjust = 0) +
+  geom_rect(data = scale[grepl('Pop.', label)],
+            aes(xmin = space_min/(1000^2), xmax = space_max/(1000^2),
+                ymin = time_min, ymax = time_max),
+            color = 'black', 
+            fill = NA, linewidth = 3,
+            show.legend = F) +
+  geom_label(data = scale[grepl('Pop.', label)],
+             aes(x = space_min/(1000^2), y = time_min,
+                 label = label),
+             fontface = 'bold',
+             show.legend = F,
+             hjust = 0,
+             vjust = 0) +
   scale_y_log10(breaks = c(60, 60*60, 60*60*24, 60*60*24*7, 60*60*24*7*4.5,
                            60*60*24*7*52, 60*60*24*7*52*10,
                            60*60*24*7*52*10*10),
@@ -49,10 +56,10 @@ scale_dpi <- function(w, h, r){
     res = r
   )
 }
-scales <- scale_dpi(w = 85, h = 90, r = 500)
+scales <- scale_dpi(w = 85, h = 90, r = 300)
 
 
-agg_png("figures/figure1.png",
+agg_png("ms_figures/v2_figure1.png",
         width = scales$width,
         height = scales$height,
         units = 'px',
