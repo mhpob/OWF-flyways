@@ -4,28 +4,28 @@ library(ggplot2)
 scale <- fread('data/scale_figure_data.csv')
 scale$label <- gsub(' n ', '\n', scale$label)
 scale <- scale[1:5]
-scale[grepl('Fishing fleets', label), 'label'] <- 'Migration,\nPop.Dynamics'
+scale[grepl('Fishing fleets', label), 'label'] <- 'Migration,\npop. dynamics'
 
 scale_fig <-
   ggplot() +
-  geom_rect(data = scale[!grepl('Pop.', label)],
+  geom_rect(data = scale[!grepl('pop.', label)],
             aes(xmin = space_min/(1000^2), xmax = space_max/(1000^2),
                 ymin = time_min, ymax = time_max, color = label),
             fill = NA, linewidth = 2,
             show.legend = F) +
-  geom_label(data = scale[!grepl('Pop.', label)],
+  geom_label(data = scale[!grepl('pop.', label)],
              aes(x = space_min/(1000^2), y = time_min,
                  label = label, color = label),
              show.legend = F,
              hjust = 0,
              vjust = 0) +
-  geom_rect(data = scale[grepl('Pop.', label)],
+  geom_rect(data = scale[grepl('pop.', label)],
             aes(xmin = space_min/(1000^2), xmax = space_max/(1000^2),
                 ymin = time_min, ymax = time_max),
             color = 'black', 
             fill = NA, linewidth = 3,
             show.legend = F) +
-  geom_label(data = scale[grepl('Pop.', label)],
+  geom_label(data = scale[grepl('pop.', label)],
              aes(x = space_min/(1000^2), y = time_min,
                  label = label),
              fontface = 'bold',
@@ -59,7 +59,7 @@ scale_dpi <- function(w, h, r){
 scales <- scale_dpi(w = 85, h = 90, r = 300)
 
 
-agg_png("ms_figures/v2_figure1.png",
+agg_png("ms_figures/v3_figure1.png",
         width = scales$width,
         height = scales$height,
         units = 'px',
