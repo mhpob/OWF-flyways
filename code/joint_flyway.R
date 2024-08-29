@@ -3,7 +3,7 @@ library(ggplot2)
 library(qs)
 
 # Striped bass
-hud_sb <- qread('data/hud_detects.qs')
+hud_sb <- qread('data/embargo/hud_detects.qs')
 
 setDT(hud_sb)
 
@@ -63,7 +63,7 @@ sb_agg <- sb_agg[year == 2017,
 
 
 
-gannet <- fread('c:/users/darpa2/downloads/northern gannet (diving bird study).csv')
+gannet <- fread('data/northern gannet (diving bird study).csv')
 region <- fread('data/spiegel_A-1.csv')
 gannet <- gannet[region, on = c(`tag-local-identifier` = 'tag_id',
                                 `individual-local-identifier` = 'band_number')]
@@ -94,7 +94,7 @@ gannet_agg <- gannet_agg[year == 2015,
 
 
 ## NARW
-narw <- fread('data/davis-et-al-2017_narw-daily-detection-data.csv')
+narw <- fread('data/embargo/davis-et-al-2017_narw-daily-detection-data.csv')
 narw <- narw[NARW_PRESENCE == 1]
 #correct negative longitude
 narw[, RECORDER_LONGITUDE := fifelse(RECORDER_LONGITUDE > 0,
@@ -196,9 +196,9 @@ m1 <- gam(mean_lat ~
           data = agg, method = 'REML')
 
 pred_dat <- data.table(
-  week = rep(1:53, times = 3),
+  week = rep(seq(1,53, length.out = 100), times = 3),
   species = rep(c('northern gannet', 'striped bass', 'NARW'),
-                each = 53)
+                each = 100)
 )
 pd <- predict(m1, newdata = pred_dat, se.fit = TRUE)
 
@@ -216,29 +216,43 @@ smooth_plot <-
   # geom_errorbar(data = agg, aes(x = week, ymin = lsd, ymax = usd),
   #               color = 'orange') +
   geom_point(data = agg, aes(x = week, y = mean_lat),
-             color = 'orange', alpha = 0.5) +
+             color = 'orange', alpha = 0.5, size = 0.5) +
   facet_wrap(~species, ncol = 1, scales = 'free_y') +
   labs(x = 'Week of year', y = 'Latitude') +
-  theme_minimal()
+  theme_minimal() +
+  theme(
+    plot.margin = unit(rep(0, 4), 'mm')
+  )
 
 
 
 
 library(gratia)
 
-deriv_plot <- derivatives(m1, data = pred_dat, eps = 5) |> 
+deriv_plot <-
+  derivatives(m1, data = pred_dat, 
+              eps = 5) |> 
   ggplot() +
   geom_ribbon(aes(x = week, ymin = .lower_ci, ymax = .upper_ci),
               fill = 'lightgray') +
   geom_line(aes(x = week, y = .derivative)) +
   facet_wrap(~species, ncol = 1, scales = 'free_y')+
   labs(x = 'Week of year', y = 'Latitudinal velocity (degrees/week)') +
-  theme_minimal()
+  theme_minimal() +
+  theme(
+    plot.margin = unit(rep(0, 4), 'mm')
+  )
 
 
 library(patchwork)
+library(svglite)
+svglite(
+  'ms_figures/figure7.svg',
+  width = 170 / 25.4,
+  height = 170 / 25.4 / (650/575)
+)
 smooth_plot + deriv_plot
-
+dev.off()
 
 
 m2 <- gam(mean_lon ~  

@@ -66,7 +66,8 @@ map <- ggplot() +
   geom_sf(data = turtle_paths, arrow = arrow(length = unit(0.1, "inches")),
           aes(linetype = type)) +
   scale_fill_viridis_c(option = 'B', trans = 'log',
-                       breaks = c(50, 500, 3000)) +
+                       breaks = c(50, 500, 3000),
+                       direction = -1) +
   coord_sf(xlim = c(107, 135), ylim = c(15, 35)) +
   labs(x = NULL, y = NULL, color = 'Species', linetype = NULL, shape = NULL,
        fill = 'Capacity (MW)') +
@@ -98,7 +99,7 @@ scale_dpi <- function(w, h, r){
 # ratio = 1.294425
 scales <- scale_dpi(w = 85, h = 66, r = 500)
 
-agg_png("ms_figures/figure3.png",
+agg_png("ms_figures/v2_figure3.png",
         width = scales$width,
         height = scales$height,
         units = 'px',
@@ -110,7 +111,7 @@ map
 dev.off()
 
 library(svglite)
-svglite("ms_figures/figure3.svg",
+svglite("ms_figures/v2_figure3.svg",
         width = 85/25.4,
         height = 66/25.4,
         scaling = 0.5)
